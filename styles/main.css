@@ -8,8 +8,8 @@
     --color-primary: #8257E5;
     --color-primary-dark: #774DD6;
     --color-primary-darker: #6842C2;
-    --color-secundary: #04D361;
-    --color-secundary-dark: #04BF58;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
     --color-title-in-primary: #FFFFFF;
     --color-text-in-primary: #D4C2FF;
     --color-text-title: #32264D;
@@ -42,7 +42,7 @@ html,
 
 
 body {
-    height: 100vh;
+    height: 80vh; /* Altura */
 }
 
 
@@ -59,6 +59,15 @@ body,
 input,
 button,
 textarea {
-    font: 500 1.6rem Poppins;
+    /*font: 500 1.6rem Poppins;*/
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;
     color: var(--color-text-base);
+}
+
+#container {
+    width: 90vw; /* Largura */
+    max-width: 700px; /* px = unidade de medida fixa */
+    
 }
