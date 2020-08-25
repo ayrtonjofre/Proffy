@@ -13,3 +13,9 @@
 .logo-container img {
     height: 10rem;
 }
+
+.hero-image {
+    width: 100; /* Essa imagem vai herdar a largura do 
+                   pai dele que e o id=container */
+}
+
